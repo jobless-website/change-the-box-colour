@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
+:root{
+	--styleFont:'Dancing Script';
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#modal-container{
+	display: none;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	background-color: rgb(0,0,0,0.3);
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+
+
+}
+
+.modal-item{
+	width: 40vw;
+	background: #fff;
+	margin: 10% auto;
+	box-shadow: 0 3px 7px 0 rgba(0,0,0,0.6),0 3px 7px 0 rgba(0,0,0,0.6);
+
+}
+
+.item-header{
+	background: orange;
+	padding: 15px;
+}
+
+.item-header h2{
+	font-family: var(--styleFont);
+	text-transform: capitalize;
+	font-size: 2rem;
+	color: #fff;
+	
+}
+
+.item-header span{
+	float: right;
+	font-size: 2rem;
+	color: #fff;
+}
+
+.item-header span:hover{
+	color: #000;
+	cursor: pointer;
+}
+
+.item-body{
+	padding: 10px 3px;
+	line-height: 1.6;
+	font-size: 1.5rem;
+}
+
+.item-footer{
+	background: orange;
+	color: white;
+	padding: 10px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.item-footer h2{
+	font-family: var(--styleFont);
+	text-transform: capitalize;
+	margin: 0;
+
+
+}
+
+.box-container{
+	width: 50vw;
+	margin:0 auto;
+}
+
+.box-container h1{
+	margin: 20px 0;
+	text-align: center;
+	text-transform: capitalize;
+	font-family: var(--styleFont);
+	font-size: 3rem;
+	color: orange;
+
+}
+
+#box{
+	width: 300px;
+	height: 300px;
+	border: 1px solid black;
+	margin-bottom: 10px;
+	text-align: center;
+	margin: 30px auto;
+}
+
+.button{
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	margin-right: 20px;
+
+}
+
+.btn{
+	padding: 3px 12px;
+	text-transform: capitalize;
+	font-family: var(--styleFont);
+	background: transparent;
+	font-size: 1rem;
+	cursor: pointer;
+	margin-right: 15px;
+
+}
+
+#btn-red{
+	border: 1px solid red;
+	color: red;
+}
+
+#btn-red:hover{
+	background: red;
+	color: white;
+	cursor: pointer;
+}
+
+#btn-black{
+	border: 1px solid black;
+	color: black;
+}
+
+#btn-black:hover{
+	background: black;
+	color: white;
+	cursor: pointer;
+}
+
+#btn-green{
+	border: 1px solid green;
+	color: green;
+}
+
+#btn-green:hover{
+	background: green;
+	color: white;
+	cursor: pointer;
+}
+
+#btn-blue{
+	border: 1px solid blue;
+	color: blue;
+}
+
+#btn-blue:hover{
+	background: blue;
+	color: white;
+	cursor: pointer;
+}
+
+.quote{
+	margin:30px auto;
+	text-align: center;
+	display: block;
+
+}
+
+#quote-btn{
+	padding: 5px 14px;
+	font-size: 2rem;
+	background:transparent;
+	border-color: orange;
+	color: orange;
+	width: 50%;
+	margin-left: 30px;
+}
+
+#quote-btn:hover{
+	background: orange;
+	color: white;
+
+}
+
+
+
